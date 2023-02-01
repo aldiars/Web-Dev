@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Basics</title>
+        <style>            
+        
+        h2, h3 {
+            color: rgb(100, 156, 100);
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+
+        body {
+            background-color: rgb(170, 170, 170);
+            font-size: 14px;
+        }
+        
+        .song-lyrics {
+            background-color: white;
+            font: italic 14px fantasy;
+            line-height: 1.5em;
+        }
+        
+        p {
+            font-family: "Helvetica", sans-serif;
+        }
+
+        .group-name {
+            color: indianred
+        }
+
+        #official-info {
+            background: rgb(200, 200, 230);
+            /* width: 70%; */
+            height: 200px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            /* margin: 0px 0px 10px 6px; */
+            border: 2px dashed rgb(161, 161, 161);
+            padding: 3px
+        }
+
+        #tsoi-kitchen {
+            width: 388.2px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: 6px ridge silver;
+        }
+
+        #container {
+            width: 400px;
+            margin: auto;
+            border:1px solid purple;
+            border-top: 10px solid purple;
+        }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+        <h1>Something about music!</h1>
+
+        <ul>
+            <li><a href="#tsoi-info">Brief story about him</a></li>
+            <li><a href="#culture-info">Dive into culture</a></li>
+        </ul>
+
+        <p>Viktor Tsoi is a founder and singer of group <span class="group-name">Kino</span>. He was born in 1962 in Leningrad. Music of Kino was written in rock genre.</p>
+
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Viktor_Tsoi">Read more about Viktor Tsoi</a>
+        
+        <p>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Viktor_Tsoi#/media/File:Victor_Tsoi_1986_cropped.jpg"><img id="tsoi-kitchen" src="Victor_Tsoi_1986.jpg" alt="Viktor Tsoi sitting on the floor"></a> 
+            <br>Image of Viktor Tsoi sitting in kithcen.
+        </p>
+
+        <div id="official-info"><h2 id= "tsoi-info">Information about Viktor Tsoi</h2>
+
+        <ul>
+            <li><strong>Short info</strong>
+            <p>Born and raised in Leningrad (now known as Saint Petersburg), Tsoi started writing songs as a teenager. 
+            <br>Throughout his career, Tsoi contributed a plethora of musical and artistic works, including ten albums. 
+            <br>After Kino appeared and performed in the 1987 Soviet film Assa, the band's popularity surged, triggering a period referred to as "Kinomania", and leading to Tsoi's leading role in the 1988 Kazakh new wave art film The Needle. 
+            <br>In 1990, after their high-profile concert at the Luzhniki Stadium, Tsoi  ly relocated to Latvia with bandmate Yuri Kasparyan to work on the band's next album. 
+            <br>Two months after the concert, Tsoi died in a car collision.</p>
+        </div>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Viktor_Tsoi">Read the full article</a>
+
+        </div>    
+            </li>
+        </ul>
+
+        <h2 id="culture-info">Popular Culture</h2>
+        <ul>
+            <li>Joanna Stingray commemorated him in her song, "Tsoi Song.</li>
+            <li>On 21 June 2012, Google commemorated Tsoi's 50th birthday with a Google Doodle reminiscent of the Tsoi Wall.</li>
+            <li> 2015, Tsoi's song "Kukushka" (Russian: «Кукушка», lit. 'Cuckoo') was covered by Russian singer Polina Gagarina for the movie Battle for Sevastopol.</li>
+            <li> the 2018 film Leto, Tsoi was played by Teo Yoo.</li>
+            <li> 2018, a monument to Tsoi was erected in Almaty, Kazakhstan.</li>
+            <li>In the 2019 videogame, Metro Exodus, multiple songs by Kino such as “We Want Changes”, “Watch Yourself”, “A Song Without Words” and “Shut The Door Behind Me", can be heard on the radio during segments set on a train as it travels across Russia, its crew in search of a hospitable place to live after a nuclear war. “Shut The Door Behind Me” can also be heard in the beginning of the level 'Taiga' as the player and a crew member scout out a valley.</li>
+            <li> the 2020 videogame, Cyberpunk 2077, graffiti reading "цой жив" (Tsoi is alive) can be found in various locations.</li>
+        </ul>
+
+        <h3>Top 3 most famous songs</h3>
+
+        <ol>
+            <li>Звезда по имени Солнце</li>
+            <li>Группа крови</li>
+            <li>Спокойная ночь</li>
+        </ol>
+
+        <h2 id="music-info-heading">Basic info</h2>
+
+        <p><strong>Ви́ктор Ро́бертович Цой</strong> (21 июня 1962, Ленинград, СССР — 15 августа 1990, 35-й километр трассы Р-126 «Слока — Талси», 
+            Тукумский район, Латвия) — советский рок-музыкант, автор песен, поэт, художник и актёр корейско-русского происхождения. 
+            Основатель и лидер рок-группы «Кино», входившей в «Ленинградский рок-клуб» и изначально имевшей название «Гарин и Гиперболоиды»; 
+            до этого являлся участником групп «Палата № 6» и «Автоматические удовлетворители». Один из самых влиятельных и известных советских рок-музыкантов; Цой сам писал все тексты и исполнял все песни на концертах группы «Кино», <em>распавшейся после его смерти</em>.
+        </p>
+
+        <h2>Song</h2>
+
+            <p class="song-lyrics">Крыши домов дрожат под тяжестью дней, небесный пастух пасет облака. <br>
+        Город стреляет в ночь дробью огней, но ночь сильней, ее власть велика. <br>
+        Тем, кто ложится спать - Спокойного сна. Спокойная ночь. <br>
+        Тем, кто ложится спать - Спокойного сна. Спокойная ночь. <br>
+            </p>
+
+            <p class="song-lyrics">Я ждал это время, и вот это время пришло, те, кто молчал, перестали молчать. <br>
+        Те, кому нечего ждать, садятся в седло, их не догнать, уже не догнать. <br>
+        А тем, кто ложится спать - Спокойного сна. Спокойная ночь. <br>
+        Тем, кто ложится спать - Спокойного сна. Спокойная ночь. <br>
+        Соседи приходят, им слышится стук копыт, мешает уснуть, тревожат их сон. <br>
+        Те, кому нечего ждать, отправляются в путь те, кто спасен, те, кто спасен. <br>
+            </p>
+
+            <p class="song-lyrics">А тем, кто ложится спать - Спокойного сна. Спокойная ночь. <br>
+            Тем, кто ложится спать - Спокойного сна. Спокойная ночь.
+            </p>
+    </body>
+</html>
